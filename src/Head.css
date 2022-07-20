@@ -1,0 +1,43 @@
+.Head-header {
+    padding: 3px;
+}
+
+.Head-logo {
+    width: 100px;
+}
+
+.menu-wrapper {
+    height: 100%;
+}
+
+.menu-item {
+    min-width: 50px;
+    max-width: 200px;
+}
+
+.menu-item a {
+    color: #61dafb;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.menu-item a:hover {
+    color: #205c6c;
+    text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Head-logo {
+        animation: Head-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes Head-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
