@@ -1,3 +1,10 @@
+# Hello world react app
+Challenge create a react app within a hour. 
+The app needs to contain
+- a header
+- a footer
+- multiple stylesheets.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
