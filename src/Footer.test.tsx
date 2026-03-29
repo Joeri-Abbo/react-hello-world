@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
-//
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+import Footer from './Footer';
+
+test('renders footer with copyright', () => {
+  render(<Footer />);
+  const copyright = screen.getByText(/Copyright/i);
+  expect(copyright).toBeInTheDocument();
+});
